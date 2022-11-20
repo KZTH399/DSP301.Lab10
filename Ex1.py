@@ -42,6 +42,7 @@ str="""
 
 #Type your answer here.
 
-data = re.findall('', str)
+data = re.findall([a-zA-Z].*, str)
 
 print(data)
+
