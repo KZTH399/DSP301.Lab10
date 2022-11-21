@@ -4,8 +4,7 @@ str='''Ancient Script 21299: The Takenouchi documents are the ancient historical
 
 #Type your answer here.
 
-regex=
-data=re.findall(regex, str)
+data=re.findall('212+[0-9]\S', str)
 
 
 print(data)

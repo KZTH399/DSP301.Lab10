@@ -13,7 +13,6 @@ title="Automate the Boring Stuff with Python" target="_blank">(udemy.com)</span>
 
 #Type your answer here.
 
-regex=
 data=re.findall(regex, str)
 
 

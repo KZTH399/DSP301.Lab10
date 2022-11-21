@@ -7,8 +7,7 @@ Une dame creole aux charmes ignores.'''
 
 #Type your answer here.
 
-regex=
-emails=re.findall(regex, str)
+emails=re.findall('(\w{8})', str)
 
 
 print(emails)
