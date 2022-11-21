@@ -42,7 +42,7 @@ str="""
 
 #Type your answer here.
 
-data = re.findall([a-zA-Z].*, str)
+data = re.findall('>[a-z0-9A-Z].+', str)
 
 print(data)
 
