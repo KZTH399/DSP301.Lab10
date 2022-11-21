@@ -13,7 +13,7 @@ title="Automate the Boring Stuff with Python" target="_blank">(udemy.com)</span>
 
 #Type your answer here.
 
-data=re.findall(regex, str)
+data=re.findall('(?<=</)\S+?(?=>){5,}', str)
 
 
 print(data)
